@@ -5,7 +5,6 @@
 
 using namespace std;
 
-char planetas(char P1, char P2){
  
 //Planetas
 bool found_planet_A = false, found_planet_B = false, found_planet_C = false, found_planet_D = false, found_planet_E = false;
@@ -223,19 +222,27 @@ int main (){
     int M; //Número de portales que se desea utilizar
     char P1, P2; //Par de planetas 
     int X;     //Energia del planeta
-    int P;    //Planeta
     char P;    //Planeta
+    int Y; //Años que tomara el viaje
 
-    cin >> N;
+
+//Numero de planetas
+if (1 >= P || P >= 9){
+  return 1;
+}
+
+//Portales por planeta
+if (){
+  return 1;
+}
+
+ 
     cin >> N;
 
-    int n_planetas = 0;
     
     for(int i = 0; i < N; i++){
         cout<<"entrando al P1 y P2"<<endl;
         cin>> P1 >> P2;
-        planetas(P1, P2);
-        n_planetas+=2;
         registro_de_planetas(P1);
         registro_de_planetas(P2);
     }
@@ -257,29 +264,27 @@ int main (){
     cin >> M;
 
 
-    //Salida primera linea
+//Salida primera linea
     if (){
           cout << 1;
-          return 1;
     }     
     else if (){
           cout << 2;
-          return 1;
      }    
      else if (){
           cout << 3;
-          return 1;
      }
      else if (){
           cout << 4;
-          return 1;
      }    
      else if (){
           cout << 5;
-          return 1;
      }
 
-     //Salida segunda linea
+ //Salida segunda linea (numeros de años que toma el viaje)
+ if (){
+  cout << Y;
+ }
      
 
     return 0;
