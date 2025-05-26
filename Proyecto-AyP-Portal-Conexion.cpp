@@ -225,17 +225,11 @@ int main (){
     int X;     //Energia del planeta
     int P;    //Planeta
     char P;    //Planeta
-    int results; //Salida 
-    int years = 0; //Años que toma el viaje
 
     cin >> N;
     cin >> N;
 
     int n_planetas = 0;
-
-    if (P <= 1 && 9 <= P){
-
-    }
     
     for(int i = 0; i < N; i++){
         cout<<"entrando al P1 y P2"<<endl;
@@ -246,7 +240,6 @@ int main (){
         registro_de_planetas(P2);
     }
 
-    for(int i = 0; i < n_planetas; i++)
 
     for(int i = 0; i < contador_planetas; i++){
         cout << "Entrando a energia" << endl;
@@ -257,15 +250,12 @@ int main (){
     
     cin >> V;
 
-    cin>> E;
     cin >> E;
 
-    cin>> F;
     cin >> F;
 
     cin >> M;
 
-    cin>> M;
 
     //Salida primera linea
     if (){
